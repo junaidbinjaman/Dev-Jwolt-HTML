@@ -1,0 +1,15 @@
+button {
+  background-color: mix(black, blue, 60%);
+  color: white;
+  border: none;
+  border-radius: $base-radius;
+  font-weight: bold;
+  box-shadow: $base-shadow;
+  padding: $base-padding $base-padding * 4;
+  border: $base-border;
+  margin-top: $base-margin;
+  cursor: pointer;
+  &:hover {
+    background-color: mix(black, blue, 50%);
+  }
+}

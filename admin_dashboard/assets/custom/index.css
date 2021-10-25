@@ -1,0 +1,48 @@
+form {
+  padding: 36px 0;
+  text-align: center;
+}
+form input {
+  background-color: #e6e5e5;
+  border: none;
+  outline: none;
+  width: 650px;
+  height: 45px;
+  font-size: 18px;
+  padding-left: 20px;
+  border-radius: 7px;
+  margin-bottom: 17px;
+}
+form textArea {
+  background-color: #e6e5e5;
+  border: none;
+  outline: none;
+  width: 650px;
+  height: 150px;
+  font-size: 18px;
+  padding-left: 20px;
+  border-radius: 7px;
+}
+
+button {
+  background-color: #000066;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-weight: bold;
+  box-shadow: 3px 5px 26px 2px rgba(204, 204, 204, 0.28);
+  padding: 12px 48px;
+  border: 1px solid #e6e5e5;
+  margin-top: 12px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: navy;
+}
+
+.search-result {
+  position: absolute;
+  top: 80%;
+  width: 210px;
+  z-index: 100;
+}/*# sourceMappingURL=index.css.map */

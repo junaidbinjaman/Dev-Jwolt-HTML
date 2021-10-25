@@ -1,0 +1,22 @@
+@mixin formDesign($height) {
+  background-color: rgb(230, 229, 229);
+  border: none;
+  outline: none;
+  width: 650px;
+  height: $height;
+  font-size: 18px;
+  padding-left: 20px;
+  border-radius: $base-radius;
+}
+
+form {
+  padding: $base-padding * 3 0;
+  text-align: center;
+  input {
+    @include formDesign(45px);
+    margin-bottom: $base-margin + 5;
+  }
+  textArea {
+    @include formDesign(150px);
+  }
+}
